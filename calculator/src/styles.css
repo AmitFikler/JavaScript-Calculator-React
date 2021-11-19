@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@200&family=Bree+Serif&family=Josefin+Sans&display=swap');
+
 .parent {
   display: grid;
   grid-template-columns: repeat(9, 1fr);
@@ -8,17 +10,26 @@
   text-align: center;
 }
 .parent div {
-  border: 1px solid;
+  border: 3px solid;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  font-family: src;
 }
 .device {
   grid-area: 2 / 4 / 9 / 8;
 }
 .screen {
   grid-area: 2 / 4 / 4 / 8;
+  background-color: rgba(93, 93, 93, 0.383);
+  display: flex;
+  align-items: flex-end;
+  padding: 5%;
+  font-size: 23px;
+  color: green;
+  border: 3px solid black;
 }
+
 .AC {
   grid-area: 4 / 4 / 5 / 6;
   background-color: rgb(243, 104, 104);
