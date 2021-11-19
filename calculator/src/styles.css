@@ -1,0 +1,72 @@
+.parent {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: repeat(9, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  height: 100vh;
+  text-align: center;
+}
+.parent div {
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.device {
+  grid-area: 2 / 4 / 9 / 8;
+}
+.screen {
+  grid-area: 2 / 4 / 4 / 8;
+}
+.AC {
+  grid-area: 4 / 4 / 5 / 6;
+}
+.div {
+  grid-area: 4 / 6 / 5 / 7;
+}
+.mul {
+  grid-area: 4 / 7 / 5 / 8;
+}
+.minus {
+  grid-area: 5 / 7 / 6 / 8;
+}
+.plus {
+  grid-area: 6 / 7 / 7 / 8;
+}
+.equels {
+  grid-area: 7 / 7 / 9 / 8;
+}
+.one {
+  grid-area: 5 / 4 / 6 / 5;
+}
+.two {
+  grid-area: 5 / 5 / 6 / 6;
+}
+.three {
+  grid-area: 5 / 6 / 6 / 7;
+}
+.four {
+  grid-area: 6 / 4 / 7 / 5;
+}
+.five {
+  grid-area: 6 / 5 / 7 / 6;
+}
+.six {
+  grid-area: 6 / 6 / 7 / 7;
+}
+.seven {
+  grid-area: 7 / 4 / 8 / 5;
+}
+.eight {
+  grid-area: 7 / 5 / 8 / 6;
+}
+.nine {
+  grid-area: 7 / 6 / 8 / 7;
+}
+.zero {
+  grid-area: 8 / 4 / 9 / 6;
+}
+.dot {
+  grid-area: 8 / 6 / 9 / 7;
+}
